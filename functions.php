@@ -89,6 +89,33 @@ if ( ! function_exists( 'new_hope_setup' ) ) :
 				'flex-height' => true,
 			)
 		);
+
+				/**
+	 * Add support for color palette
+	 */
+	add_theme_support('editor-color-palette',array(
+		array(
+			'name' => esc_attr__('Black','glorify'),
+			'slug' => 'black',
+			'color' => '#000000',
+		),
+		array(
+			'name' => esc_attr__('Seaweed Green','glorify'),
+			'slug' => 'seaweed-green',
+			'color' => '#396134',
+		),
+		array(
+			'name' => esc_attr__('Sky Blue','glorify'),
+			'slug' => 'sky-blue',
+			'color' => '#2e89aa',
+		),
+		array(
+			'name' => esc_attr__('Mustard','glorify'),
+			'slug' => 'mustard',
+			'color' => '#dfa13a',
+		),
+		));
+	
 	}
 endif;
 add_action( 'after_setup_theme', 'new_hope_setup' );
@@ -125,6 +152,9 @@ function new_hope_widgets_init() {
 }
 add_action( 'widgets_init', 'new_hope_widgets_init' );
 
+
+
+
 /**
  * Enqueue scripts and styles.
  */
@@ -134,10 +164,11 @@ function new_hope_scripts() {
 		//Foundation (should always be below main style sheet and custom  style sheet after)
 		wp_enqueue_style('foundation-style', get_template_directory_uri().'/assets/css/vendor/foundation.css');
 
-		wp_enqueue_style('custom-style', get_template_directory_uri().'/assets/css/custom.css');
+		
 	
 		//To put the script to the footer following the syntax and putting footer as true
 		wp_enqueue_script('foundation-script', get_template_directory_uri().'/assets/js/vendor/foundation.js', array(), false, true);
+		wp_enqueue_style('custom-style', get_template_directory_uri().'/assets/css/custom.css');
 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -184,7 +215,7 @@ add_action( 'enqueue_block_editor_assets', 'new_hope_enqueue_block_editor_assets
 function new_hope_enqueue_block_assets() {
     wp_enqueue_style( 
 		'blocks-style',
-		get_template_directory_uri() . '/assets/css/blocks.css',
+		get_template_directory_uri() . '/assets/css/blocks.css'
 	);
 }
 add_action( 'enqueue_block_assets', 'new_hope_enqueue_block_assets' );
