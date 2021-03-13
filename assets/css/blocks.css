@@ -1,1 +1,58 @@
 /* CSS for Block Setup*/
+
+
+/* Add Color Palette */
+
+.has-seaweed-green-background-color {
+    background-color: #396134;
+}
+
+.has-seaweed-green-color {
+    color: #396134;
+}
+
+.has-sky-blue-background-color {
+    background-color: #2e89aa;
+}
+
+.has-sky-blue-color {
+    color: #2e89aa;
+}
+
+.has-black-background-color {
+    background-color: #000000;
+}
+
+.has-black-color {
+    color: #000000;
+}
+
+.has-mustard-background-color {
+    background-color: #dfa13a;
+}
+
+.has-mustard-color {
+    color: #dfa13a;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+p{
+    font-size: 24px;
+}
+
+@media (max-width: 599px){
+
+
+    p{
+        font-size: 18px;
+    }
+
+}
+

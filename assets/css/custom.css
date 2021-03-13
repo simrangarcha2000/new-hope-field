@@ -1,1 +1,419 @@
+/*                            SCREEN SETTINGS                */
+/* SETTING WIDTH of ALL PAGES */
+body{
+    overflow-x: hidden;
+}
+
+.grid-container{
+max-width: 95rem;
+}
+
+p{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+}
+
+/*                               DEFAULT BLOCK                  */
+
+.wp-block-columns{
+    margin-bottom: 0px;
+}
+
+
+/*                            HEADER & FOOTER                  */
 /* CSS For Header and Footer Changes*/
+.mainLogo{
+    padding-top: 40px;
+}
+
+.main-navigation{
+    margin-left: 17px;
+}
+/* Main Logo CSS */
+.main-navigation li{
+    height: 60px;
+    width: 16.25%;
+    font-size: 15px;
+    background-color: #F3F3F3;
+    padding-top: 5px;
+    text-align: center;
+    margin-left: 2px;
+    transition: all .3s ease-out;
+}
+.main-navigation li:hover, .main-navigation li a:hover{
+    background-color: #2889A8;
+    color: #F3F3F3;
+}
+.main-navigation li a{
+    height: 100%;
+    text-transform: uppercase;
+    color: #2889A8;
+}
+.socials img{
+    float: right;
+    margin-left: 10px;
+    margin: 20px;
+}
+
+/*          Search          */
+.search-container {
+    width: 20%;
+    padding: 3px;
+    background-color: #2e89aa;
+    height: 45px;
+}
+.search-container form button img{
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+.search-container form input{
+    border: solid #2e89aa 1.5px;
+    border-radius: 0;
+    width: 85%;
+    display: inline-block;
+}
+
+
+/* Footer Css */
+
+/**
+*THIS IS FOR HOME PAGE STYLING
+*/
+
+.wp-image-436 {
+    display: none;
+}
+
+
+
+
+
+/**
+* THIS IS FOR VISION and MISSION PAGE 
+*/
+
+.wp-image-71 {
+        margin-left: 80%;
+        margin-top: -28%;
+        position: relative;
+        z-index: 1;
+    }
+
+#post-20 .wp-block-image{
+    margin-bottom: 0px;
+}
+
+.wp-image-335 {
+    margin-left: -2rem;
+    margin-top: -12.5rem;
+}
+
+.wp-image-421 {
+    display: none;
+}
+
+.wp-image-420 {
+    display: none;
+}
+
+#missionHead {
+    margin-top: -10rem;
+}
+
+
+/**
+*THIS IS FOR CONTACT PAGE STYLING
+*/
+
+
+label {
+    color:#E0A13B;
+}
+
+div.wpforms-container-full .wpforms-form input[type=text],div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form textarea{
+    border:1px solid #2989AA;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    background-color: #2989AA;
+    border: 1px solid #2989AA;
+    color: white;
+}
+
+
+/* Testimonials and Partners starting */
+.entry-title{
+    visibility: hidden;
+}
+
+.fl {
+    position: absolute;
+}
+/**
+blockquote, blockquote p {
+    line-height: 1.6;
+    color:#396134;
+}
+.wp-block-image{
+    background-color: #2889A8;
+}
+h5{
+    background-color: #2889A8;
+    color: #396134;
+}
+.hea{
+    background-color: #2e89aa;
+    color: white;
+}
+.wp-block-columns {
+    margin-left: 10px;
+}**/
+/* Testimonials and Partners ending */
+
+
+
+
+/*
+Donation Page
+*/
+/* .wp-block-columns{
+    margin-left: 232px  !important;
+
+} */
+.Presenting_Problems{
+    margin-left: 347px  ;
+}
+.myTable{
+  margin: 0 auto;
+    width: 70%  !important;
+    height: auto;
+    overflow-x:auto;
+}
+.myTable th{
+    background-color: #E0A13B;
+    color:#396134;
+}
+.myTable tr{
+    background-color: white;
+    color: #396134;
+}
+/*     
+
+
+
+TABLET VIEW                             */
+
+
+@media (min-width: 600px){
+    
+    element {
+        font-size: 18px;
+    }
+
+p {
+    font-size: 18px;
+}
+
+
+    /*  CONTACT PAGE   */
+    .wp-block-image.desktop {
+        display:block;
+    }
+
+    .wp-block-image.mobile {
+        display:none;
+    }
+        /* THIS IS PATHWAY TO SUCCESS TABLET PAGE */
+
+h2.pathway_h2.has-mustard-color.has-text-color {
+    text-align: left;
+}
+
+}
+
+/*                                      MOBILE VIEW                             */
+@media (max-width: 599px) {
+
+
+
+    /*    VISION AND MISSION*/
+    .wp-image-71 {
+        display: none;
+    }
+
+    .wp-image-335 {
+        display: none;
+        
+    }
+
+    .wp-image-420 {
+        display: inline;
+        position: relative;
+        width: 100%;
+        margin-left: 0rem;
+        margin-top: 1rem;
+    }
+
+    .wp-image-421 {
+        display: inline;
+    }
+
+    .wp-image-29 {
+        display: none;
+    }
+    
+
+    p.visionPtag.has-seaweed-green-color.has-text-color {
+        font-size: 20px;
+    }
+
+
+
+    
+
+
+    #missionHead {
+        margin-top: 2rem;
+    }
+
+    /*  CONTACT PAGE   */
+    .wp-block-image.desktop {
+        display:none;
+    }
+
+    .wp-block-image.mobile {
+        display:block;
+    }
+
+    .wp-image-335 {
+        z-index: 1;
+    }
+
+    /* THIS IS PATHWAY TO SUCCESS MOBILE PAGE */
+
+h2.pathway_h2.has-mustard-color.has-text-color {
+    text-align: left;
+    font-size: 32px;
+}
+
+p.revival_text.has-sky-blue-color.has-text-color {
+    font-size: 20px;
+}
+
+h2.revival_heading.has-mustard-color.has-text-color {
+    text-align: center;
+    font-size: 29px;
+
+}
+.wp-block-columns.revival_block {
+    margin-top: 40px;
+    height: 400px;
+    padding-bottom: 10px;
+    
+}
+
+.wp-block-column.is-vertically-aligned-top.revival_left_col {
+    height: 100px;
+    padding: 10px;
+}
+.wp-block-column.is-vertically-aligned-top.revival_right_col {
+    margin-left: 227px;
+    margin-top: -98px;
+    padding: 10px;
+}
+
+    /* THIS IS HOME PAGE */
+
+    .wp-image-436 {
+        display: inline;
+        margin-top: -98rem;
+    }
+        
+
+        .wp-image-318 {
+            display: none;
+        }
+
+        .wp-image-114 {
+            display: none;
+        }
+
+        .home h2{
+            margin-top: 32rem;
+        }
+
+    /* TESTIMONIALS */
+    .wp-image-84 {
+        display: none;
+    }
+
+}
+
+/* DESKTOP */
+
+@media (min-width:769px){
+    /* THIS IS PATHWAY TO SUCCESS PAGE */
+
+h2.pathway_h2.has-mustard-color.has-text-color {
+    text-align: center;
+}
+
+p.pathway_paragraph.has-seaweed-green-color.has-text-color {
+    font-size: 25px;
+}
+.wp-block-columns.revival_block {
+    text-align: center;
+    margin-left: 32%;
+}
+
+h2.revival_heading.has-mustard-color.has-text-color {
+    text-align: center;
+}
+
+p.revival_text.has-sky-blue-color.has-text-color {
+    font-size: 24px;
+    text-align: left;
+}
+
+
+.wp-block-column.is-vertically-aligned-top.revival_left_col {
+    margin-top: 35px;
+}
+
+.wp-block-column.is-vertically-aligned-top.revival_right_col {
+    margin-top: 35px;
+}
+
+/* NEW STYLES FOR LATEST PDF PATHWAY PAGE */
+
+p.pathway_text.has-seaweed-green-color.has-text-color {
+    font-size: 32px;
+    justify-content: left;
+}
+
+
+/*     HOME PAGE  */
+.wp-image-318 {
+    margin-top: -48rem;
+    width: 34%;
+    margin-left: 16.4rem;
+    transform: rotate(180deg);
+}
+
+.home p {
+    position: absolute;
+    z-index: 200;
+    width: 28%;
+}
+
+
+}
+
+
+
+
