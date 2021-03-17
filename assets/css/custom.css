@@ -1,419 +1,837 @@
-/*                            SCREEN SETTINGS                */
-/* SETTING WIDTH of ALL PAGES */
-body{
-    overflow-x: hidden;
-}
-
-.grid-container{
-max-width: 95rem;
-}
-
-p{
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-}
-
-h1, h2, h3, h4, h5, h6{
-    font-family: 'Source Sans Pro';
-    font-weight: 600;
-}
-
-/*                               DEFAULT BLOCK                  */
-
-.wp-block-columns{
-    margin-bottom: 0px;
-}
-
-
-/*                            HEADER & FOOTER                  */
-/* CSS For Header and Footer Changes*/
-.mainLogo{
-    padding-top: 40px;
-}
-
-.main-navigation{
-    margin-left: 17px;
-}
-/* Main Logo CSS */
-.main-navigation li{
-    height: 60px;
-    width: 16.25%;
-    font-size: 15px;
-    background-color: #F3F3F3;
-    padding-top: 5px;
-    text-align: center;
-    margin-left: 2px;
-    transition: all .3s ease-out;
-}
-.main-navigation li:hover, .main-navigation li a:hover{
-    background-color: #2889A8;
-    color: #F3F3F3;
-}
-.main-navigation li a{
-    height: 100%;
-    text-transform: uppercase;
-    color: #2889A8;
-}
-.socials img{
-    float: right;
-    margin-left: 10px;
-    margin: 20px;
-}
-
-/*          Search          */
-.search-container {
-    width: 20%;
-    padding: 3px;
-    background-color: #2e89aa;
-    height: 45px;
-}
-.search-container form button img{
-    margin-left: 5px;
-    margin-bottom: 2px;
-}
-.search-container form input{
-    border: solid #2e89aa 1.5px;
-    border-radius: 0;
-    width: 85%;
-    display: inline-block;
-}
-
-
-/* Footer Css */
-
-/**
-*THIS IS FOR HOME PAGE STYLING
-*/
-
-.wp-image-436 {
-    display: none;
-}
-
-
-
-
-
-/**
-* THIS IS FOR VISION and MISSION PAGE 
-*/
-
-.wp-image-71 {
-        margin-left: 80%;
-        margin-top: -28%;
-        position: relative;
-        z-index: 1;
-    }
-
-#post-20 .wp-block-image{
-    margin-bottom: 0px;
-}
-
-.wp-image-335 {
-    margin-left: -2rem;
-    margin-top: -12.5rem;
-}
-
-.wp-image-421 {
-    display: none;
-}
-
-.wp-image-420 {
-    display: none;
-}
-
-#missionHead {
-    margin-top: -10rem;
-}
-
-
-/**
-*THIS IS FOR CONTACT PAGE STYLING
-*/
-
-
-label {
-    color:#E0A13B;
-}
-
-div.wpforms-container-full .wpforms-form input[type=text],div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form textarea{
-    border:1px solid #2989AA;
-}
-
-div.wpforms-container-full .wpforms-form button[type=submit] {
-    background-color: #2989AA;
-    border: 1px solid #2989AA;
-    color: white;
-}
-
-
-/* Testimonials and Partners starting */
-.entry-title{
-    visibility: hidden;
-}
-
-.fl {
-    position: absolute;
-}
-/**
-blockquote, blockquote p {
-    line-height: 1.6;
-    color:#396134;
-}
-.wp-block-image{
-    background-color: #2889A8;
-}
-h5{
-    background-color: #2889A8;
-    color: #396134;
-}
-.hea{
-    background-color: #2e89aa;
-    color: white;
-}
-.wp-block-columns {
-    margin-left: 10px;
-}**/
-/* Testimonials and Partners ending */
-
-
-
-
-/*
-Donation Page
-*/
-/* .wp-block-columns{
-    margin-left: 232px  !important;
-
-} */
-.Presenting_Problems{
-    margin-left: 347px  ;
-}
-.myTable{
-  margin: 0 auto;
-    width: 70%  !important;
-    height: auto;
-    overflow-x:auto;
-}
-.myTable th{
-    background-color: #E0A13B;
-    color:#396134;
-}
-.myTable tr{
-    background-color: white;
-    color: #396134;
-}
-/*     
-
-
-
-TABLET VIEW                             */
-
-
-@media (min-width: 600px){
+@font-face {
+    font-family: "ObjectSans-heavy";
+    src: url(../fonts/ObjectSans-Heavy.otf);
     
-    element {
-        font-size: 18px;
+    }
+    
+    @font-face {
+        font-family: "ObjectSans-regular";
+        src: url(../fonts/ObjectSans-Regular.otf);
+        }
+    
+
+    strong{
+        font-family: "ObjectSans-heavy";
     }
 
-p {
-    font-size: 18px;
-}
-
-
-    /*  CONTACT PAGE   */
-    .wp-block-image.desktop {
-        display:block;
+    #primary {
+        margin: 0rem 7rem;
     }
-
-    .wp-block-image.mobile {
-        display:none;
+    
+    .donateBtn:active{
+            transform: translateY(2px);
+        }
+    /*                            SCREEN SETTINGS                */
+    /* SETTING WIDTH of ALL PAGES */
+    body{
+        overflow-x: hidden;
     }
-        /* THIS IS PATHWAY TO SUCCESS TABLET PAGE */
-
-h2.pathway_h2.has-mustard-color.has-text-color {
-    text-align: left;
-}
-
-}
-
-/*                                      MOBILE VIEW                             */
-@media (max-width: 599px) {
-
-
-
-    /*    VISION AND MISSION*/
-    .wp-image-71 {
+    .emailTransfer{
+        text-decoration: underline;
+            }
+            
+    .page{
+        margin: 0 0 0em
+    }
+    
+    .grid-container{
+    max-width: 95rem;
+    }
+    
+    p{
+        font-family: "ObjectSans-regular";
+        font-size: 20px ; 
+    }
+    
+    h1, h2, h3, h4, h5, h6{
+        font-family: "ObjectSans-heavy";
+    }
+    
+    h1{
+        font-family: 2.5em;
+    }
+    
+    /*                               DEFAULT BLOCK                  */
+    
+    .wp-block-columns{
+        margin-bottom: 0px;
+    }
+    
+    
+    /*                            HEADER & FOOTER                  */
+    /* CSS For Header and Footer Changes*/
+    .mainLogo{
+        padding-top: 35px;
+    }
+    
+    .main-navigation{
+        margin-left: 17px;
+    }
+    /* Main Logo CSS */
+    .main-navigation li{
+        height: 60px;
+        width: 16.25%;
+        font-size: 15px;
+        background-color: #F3F3F3;
+        padding-top: 4px;
+        text-align: center;
+        margin-left: 2px;
+        transition: all .3s ease-out;
+    }
+    .main-navigation li:hover, .main-navigation li a:hover{
+        background-color: #2889A8;
+        color: #F3F3F3;
+    }
+    .main-navigation li a{
+        height: 100%;
+        text-transform: uppercase;
+        color: #2889A8;
+    }
+    .socials img{
+        float: right;
+        margin-left: 10px;
+        margin: 20px;
+    }
+    
+    /*          Search          */
+    .search-container {
+        width: 20%;
+        padding: 3px;
+        background-color: #2e89aa;
+        height: 45px;
+    }
+    .search-container form button img{
+        margin-left: 5px;
+        margin-bottom: 2px;
+    }
+    .search-container form input{
+        border: solid #2e89aa 1.5px;
+        border-radius: 0;
+        width: 85%;
+        display: inline-block;
+    }
+    
+    
+    /* Footer Css */
+    
+    
+    
+    /**
+                                                                HOME PAGE STYLING
+    */
+    
+    
+    .wp-image-436 {
         display: none;
     }
 
-    .wp-image-335 {
-        display: none;
-        
-    }
 
-    .wp-image-420 {
-        display: inline;
-        position: relative;
-        width: 100%;
-        margin-left: 0rem;
-        margin-top: 1rem;
-    }
-
-    .wp-image-421 {
-        display: inline;
-    }
-
-    .wp-image-29 {
-        display: none;
-    }
-    
-
-    p.visionPtag.has-seaweed-green-color.has-text-color {
-        font-size: 20px;
-    }
-
-
-
-    
-
-
-    #missionHead {
+    .homePageSpaceText.has-seaweed-green-color.has-text-color {
         margin-top: 2rem;
     }
 
-    /*  CONTACT PAGE   */
-    .wp-block-image.desktop {
-        display:none;
+    #homeHeroes {
+        margin: 0rem 7rem;
+        margin-bottom: 2rem;
     }
 
-    .wp-block-image.mobile {
-        display:block;
-    }
-
-    .wp-image-335 {
-        z-index: 1;
-    }
-
-    /* THIS IS PATHWAY TO SUCCESS MOBILE PAGE */
-
-h2.pathway_h2.has-mustard-color.has-text-color {
-    text-align: left;
-    font-size: 32px;
-}
-
-p.revival_text.has-sky-blue-color.has-text-color {
-    font-size: 20px;
-}
-
-h2.revival_heading.has-mustard-color.has-text-color {
-    text-align: center;
-    font-size: 29px;
-
-}
-.wp-block-columns.revival_block {
-    margin-top: 40px;
-    height: 400px;
-    padding-bottom: 10px;
-    
-}
-
-.wp-block-column.is-vertically-aligned-top.revival_left_col {
-    height: 100px;
-    padding: 10px;
-}
-.wp-block-column.is-vertically-aligned-top.revival_right_col {
-    margin-left: 227px;
-    margin-top: -98px;
-    padding: 10px;
-}
-
-    /* THIS IS HOME PAGE */
-
-    .wp-image-436 {
-        display: inline;
-        margin-top: -98rem;
-    }
-        
-
-        .wp-image-318 {
-            display: none;
-        }
-
-        .wp-image-114 {
-            display: none;
-        }
-
-        .home h2{
-            margin-top: 32rem;
-        }
-
-    /* TESTIMONIALS */
-    .wp-image-84 {
+    .wp-block-column.truthAndLoveMob {
         display: none;
     }
+    
+    
+    
+    
+    /**
+                                                                VISION and MISSION PAGE 
+    */
+    
+    
+    .wp-image-501 {
+        margin: -27% 0% 0% 80.5%;
+        position: relative;
+        z-index: 1;
+    }
+    
+    #post-20 .wp-block-image{
+        margin-bottom: 0px;
+    }
+    
+    
+    
+    .wp-image-421 {
+        display: none;
+    }
+    
+    .wp-image-420 {
+        display: none;
+    }
+    
+    #missionHead {
+        margin-top: -10rem;
+    }
+    
+    .wp-image-500 {
+        display: none;
+    }
+    
+    .wp-image-531 {
+        margin-left: -2rem;
+        position: absolute;
+        width: 42%;
+        margin-top: -12.4rem;
+    }
+    
+    #mission-and-vission #colophon {
+        margin-top: 2rem;
+    }
+    
+    /* Targetting text */
+    
+    #visionText {
+        margin-top: -2rem;
+    }
+    
+    .visionCol{
+        padding-left: 2.3rem;
+    }
+    
+    #reachOut, #reachOut2{
+        margin-top: -1rem;
+    }
 
-}
+    #missionBottomText{
+        margin-bottom: 8rem;
+    }
+    
+    .missionText, .missionCol {
+        padding-right: 1.5rem;
+        padding-left: 2rem;
+    }
+    
+    /* Setting Footer*/
+    #post-20 #colophon {
+        margin-top: 5rem;
+    }
+    
+    /**
+                                                            CONTACT PAGE STYLING
+    */
+    
+    
+    label {
+        color:#E0A13B;
+    }
+    
+    div.wpforms-container-full .wpforms-form input[type=text],div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form textarea{
+        border:1px solid #2989AA;
+    }
+    
+    div.wpforms-container-full .wpforms-form button[type=submit] {
+        background-color: #2989AA;
+        border: 1px solid #2989AA;
+        color: white;
+    }
+    /* Family  */
+    .FRI{
+        text-align: center;
+        margin-top: 100px;
+    }
+    .FRT{
+        text-align: center;
+        margin-bottom: 50px;
+        line-height: 25px;
+    }
+    .NAh{
+        font-size: 30px;
+    }
+    .FRSH{
+        font-weight: 500;
+    }
+    .family_head{
+        padding-top: 200px;
+    }
+    .PIA_blocks{
+        margin: 30px;
+    }
+    .PE_Block{
+        padding-left: 10%;
+    }
+    .NR_subhead{
+        font-size: 30px;
+    }
+    .PIA_list{
+        text-align: center;
+        list-style: none;
+        font-size: 20px;
+    }
+    .PIA_sep{
+        border-bottom: 2px solid #2E89AA;
+        max-width: 100%;
+    }
+    .entry-meta, .entry-footer{
+        display: none;
+    }
+    /*                                                      TESTIMONIALS ===   OUR FAMILY                      */
+    .entry-title{
+        visibility: hidden;
+    }
+    
+    /*.has-mustard-color {
+        color: #dfa13a;
+        margin-left: 30px;
+    }*/
+    .fam{
+        margin-left: -10px;
+    }
+/*   .wp-block-embed__wrapper {
+        position: relative;
+        margin-left: 33px;
+        width: 700px;
+    }*/
+    .fl {
+        position: absolute;
+        margin-top: 64px;
+    }
 
-/* DESKTOP */
+    .fl {
+        margin-left: -14.6rem !important;
+        z-index: 1000;
+        position: absolute;
+    }
+    
+    .q1{
+        font-size: 19px;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 300px;
+    }
+    .q2{
+        font-size: 19px;
+        margin-top: 20px;
+        margin-left: -350px;
+        width: 300px;
+    }
+    .q3{
+        font-size: 19px;
+        margin-top: -110px;
+        margin-left: 50rem;
+        width: 300px;
+    }
+    .q4{
+        font-size: 19px;
+        margin-top: -110px;
+        margin-left: 25rem;
+        width: 350px;
+    }
+    .wp-block-column .wp-block-buttons .wp-block-button {
+       margin-left: 50px;
+       margin-right: 50px;
+       margin-top: 20px;
+    }
+    /* .wp-block-column .wp-block-buttons .wp-block-button:hover {
+        background-color: #2889A8;
+        color: white;
+     } */
+     
+    .ourfam{
+        margin-top: 30px;
+    }
+    .pum-theme-906 .pum-title, .pum-theme-default-theme .pum-title {
+        color: #dfa13a;
+        text-align: left;
+        text-shadow: 0px 0px 0px rgb(2 2 2 / 23%);
+        font-family: inherit;
+        font-weight: 400;
+        font-size: 32px;
+        font-style: normal;
+        line-height: 36px;
+    }
 
-@media (min-width:769px){
-    /* THIS IS PATHWAY TO SUCCESS PAGE */
+    .wp-image-84 {
+    }
+    
+    /**
+    blockquote, blockquote p {
+        line-height: 1.6;
+        color:#396134;
+    }
+    .wp-block-image{
+        background-color: #2889A8;
+    }
+    h5{
+        background-color: #2889A8;
+        color: #396134;
+    }
+    .hea{
+        background-color: #2e89aa;
+        color: white;
+    }
+    .wp-block-columns {
+        margin-left: 10px;
+    }**/
+    /* Testimonials and Partners ending */
+    
+    
+    
+    
+    /*                                                      DONATION                   */
+    /*.wp-block-columns{
+        margin-left: 232px  !important;
+    
+    } */
+    .Presenting_Problems{
+        margin-left: 347px  ;
+    }
+    .myTable{
+        margin: 0 auto;
+        width: 70%  !important;
+        height: auto;
+        overflow-x:auto;
+    }
+    .myTable th{
+        background-color: #E0A13B;
+        color:#396134;
+    }
+    .myTable tr{
+        background-color: white;
+        color: #396134;
+    }
+    
+    
+    .wp-image-797 {
+        display: none;
+    }
+    /*     
+    
+    
+    
+    TABLET VIEW                             */
+    
+    
+    @media (min-width: 768px){
+    
+    /*    h1,h2{
+            font-size: 32px;
+        }
+    
+        h3{
+            font-size: 1.5rem;
+        }
+    
+        p{
+            font-size: 20px;
+        }
 
-h2.pathway_h2.has-mustard-color.has-text-color {
-    text-align: center;
-}
+    */
 
-p.pathway_paragraph.has-seaweed-green-color.has-text-color {
-    font-size: 25px;
-}
-.wp-block-columns.revival_block {
-    text-align: center;
-    margin-left: 32%;
-}
+    /************************************* OUR FAMILY PAGE ************************************/
 
-h2.revival_heading.has-mustard-color.has-text-color {
-    text-align: center;
-}
+        /* .wp-block-embed__wrapper {
+            position: relative;
+            margin-left: 53px;
+            width: 750px;
+        }
+        .wp-image-84{
+            margin-left: 230px;
+        }
+        .per{
+            margin-left: 70px;
+        }
+        .fam{
+            margin-left: -530px;
+            margin-top: 450px;
+        }
+        .para{
+            font-size: 9px;
+            margin-left: -540px;
+            width: 900px;
+        }
 
-p.revival_text.has-sky-blue-color.has-text-color {
-    font-size: 24px;
-    text-align: left;
-}
+        .q1{
+            margin-top: 20px;
+            margin-left: 30px;
+            width: 200px;
+        }
+        .q2{
+            margin-top: 20px;
+            margin-left: -240px;
+            width: 200px;
+        }
+        .q3{
+            margin-top: -165px;
+            margin-left: 500px;
+            width: 200px;
+        }
+        .q4{
+            margin-top: -165px;
+            margin-left: 250px;
+            width: 200px;
+        } */
+    
+    /************************************* ENDING OUR FAMILY PAGE ************************************/
+
+        /*  CONTACT PAGE   */
+        .wp-block-image.desktop {
+            display:block;
+        }
+    
+        .wp-block-image.mobile {
+            display:none;
+        }
+    
+        /* Mission and Vission 
+    
+        .wp-image-420 {
+            display: inline;
+            position: relative;
+            width: 100%;
+            margin-left: 0rem;
+            margin-top: 1rem;
+        }
+    
+        .wp-image-421 {
+            display: inline;
+        }
+    
+    
+        .wp-image-499 {
+            display: none;
+        }
+    
+        .wp-image-500 {
+            display: inline;
+        }
+    
+        .wp-image-501 {
+            display: none;
+        }
+    
+        .wp-image-531 {
+            display: none;
+        }
+    
+        #post-20 .wp-block-column:not(:only-child) {
+            flex-basis: calc(100% - 1em) !important;
+        }
+    */
+    
+    
+            /* THIS IS PATHWAY TO SUCCESS TABLET PAGE */
+    
+    h2.pathway_h2.has-mustard-color.has-text-color {
+        text-align: left;
+    }
+    
+    }
+    
+    /*                                      MOBILE VIEW                             */
+    @media (max-width: 599px) {
+
+        #primary {
+            margin: 0rem 0rem;
+        }
+    
+        /*                                  HOME                         */
+
+        .wp-image-436 {
+            display: inline;
+        }
+
+        #homeHeroes {
+            margin: 0rem 0rem;
+            margin-bottom: 2rem;
+        }
+
+        .wp-image-773 {
+            display: none;
+        }
+        
+        .wp-block-column.truthAndLoveMob {
+            display: inline;
+        }
+        #truthAndLove {
+            display: none;
+        }
+
+    
+    
+        /*                                  FAMILY REVIVAL                          */
+        .FRI{
+            margin-top: 50px;
+        }
+        .FRI img{
+            width: 200px;
+            
+        }
+        .FRT{
+            margin-bottom: 50px;
+        }
+        .family_head{
+            padding-top: 50px;
+        }
+
+        .wp-image-537 {
+            display: none;
+        }
+        
+        /* ******************************** OUR FAMILY ********************* */
+
+        .per{
+            margin-left: -8px;
+        }
+
+        .wp-block-embed__wrapper {
+            position: relative;
+            margin-left: 15px;
+            width: 490px;
+        }
+        .wp-image-84{
+            margin-left: 290px;
+            margin-top: -240px;
+        }
+        .fam{
+            font-size: 32px;
+            margin-left: -2px;
+            margin-top: 200px;
+        }
+        .q1, .q2, .q3, .q4{
+            width: 90%;
+            margin: 0rem 2rem;
+            font-size: 19px;
+            margin-top: 3rem;
+        }
 
 
-.wp-block-column.is-vertically-aligned-top.revival_left_col {
-    margin-top: 35px;
-}
+        /*                                  DONATION                        */
+    
+        .MyDonateButtons{
+            margin: 0 auto;
+            padding: 25px;
+            width: 262px;
+            text-align: center;
+            border: 2px solid #dfa13a;   
+        }
+        .MyDonateButtons:hover{
+            margin: 0 auto;
+            padding: 25px;
+            width: 262px;
+            text-align: center;
+            box-shadow: 3px 3px 4px #dfa13a;
+            border: 2px solid #dfa13a;   
+        }
+        /* Screen Setting for mobile View */
+    
+        .grid-container{
+            padding: 0rem;
+        }
+    
+        /* Setting Default Fonts for mobile*/
+    
+        #wpforms-8,h3, h2, h1, p, h3 {
+            padding: 0rem 1.2rem;
+        }
+    
+        h1,h2{
+            font-size: 2em;
+        }
+    
+    
+        h3{
+            font-size: 1.5rem;
+        }
+    
+        p{
+            font-size: 18px;
+        }
+    
+    
+    
+        /*    VISION AND MISSION*/
+    
+        .wp-image-335 {
+            display: none;
+            
+        }
+    
+        .wp-image-420 {
+            display: inline;
+            position: relative;
+            width: 100%;
+            margin-left: 0rem;
+            margin-top: 1rem;
+        }
+    
+        .wp-image-421 {
+            display: inline;
+        }
+    
+    
+        .wp-image-499 {
+            display: none;
+        }
+    
+        .wp-image-500 {
+            display: inline;
+        }
+    
+        .wp-image-501 {
+            display: none;
+        }
+    
+        .wp-image-531 {
+            display: none;
+        }
+    
+        #missionHead {
+            margin-top: 2rem;
+        }
+    
+        #post-20 #colophon {
+            margin-top: 0rem;
+        }
 
-.wp-block-column.is-vertically-aligned-top.revival_right_col {
-    margin-top: 35px;
-}
+        #missionBottomText{
+            margin-bottom: 0rem;
+        }
+    
+        /*  CONTACT PAGE   */
+    
+    
+    
+    
+        /* THIS IS PATHWAY TO SUCCESS MOBILE PAGE */
 
-/* NEW STYLES FOR LATEST PDF PATHWAY PAGE */
+        .wp-image-496 {
+            display: none;
+        }
+    
+    h2.pathway_h2.has-mustard-color.has-text-color {
+        text-align: left;
+        font-size: 32px;
+    }
+    
+    p.revival_text.has-sky-blue-color.has-text-color {
+        font-size: 20px;
+    }
+    
+    h2.revival_heading.has-mustard-color.has-text-color {
+        font-size: 29px;
+    
+    }
+    .wp-block-columns.revival_block {
+        margin-top: 40px;
+        padding-bottom: 10px;
+        
+    }
+    
+    /**/
+    .wp-block-column.mobileImgCol {
+        flex-basis: 50% !important;
+    }
 
-p.pathway_text.has-seaweed-green-color.has-text-color {
-    font-size: 32px;
-    justify-content: left;
-}
-
-
-/*     HOME PAGE  */
-.wp-image-318 {
-    margin-top: -48rem;
-    width: 34%;
-    margin-left: 16.4rem;
-    transform: rotate(180deg);
-}
-
-.home p {
-    position: absolute;
-    z-index: 200;
-    width: 28%;
-}
-
-
-}
-
-
-
-
+    .wp-block-image.size-large.is-resized.mobileImg {
+        margin-left: 2rem;
+    }
+    
+    .wp-block-column.is-vertically-aligned-top.revival_left_col {
+        height: 100px;
+        padding: 10px;
+    }
+    .wp-block-column.is-vertically-aligned-top.revival_right_col {
+        margin-left: 227px;
+        margin-top: -98px;
+        padding: 10px;
+    }
+    
+    /* Canadian Revival Retreats */
+    
+    .wp-block-column.canadian_revival_logos {
+        margin-top: 24%;
+    }
+    
+    .wp-block-columns.logos_0_desktop {
+        display: none;
+    }
+    
+        /* THIS IS HOME PAGE */
+    
+        .wp-image-436 {
+            display: inline;
+        }
+    
+    
+    
+        /*                          DONATION                */
+        .wp-image-797 {
+            display: inline;
+        }
+    
+        .wp-image-761 {
+            display: none;
+        }
+    
+        .DonateText{
+            margin-left: 25px;
+            margin-bottom: 15px;
+        }
+        .DonationWorks{
+            margin-bottom: 40px;
+        }
+    }
+    
+    /* DESKTOP */
+    
+    @media (min-width:769px){
+        /* THIS IS PATHWAY TO SUCCESS PAGE */
+    
+    
+    .revival_text.has-sky-blue-color.has-text-color {
+        line-height: 1.3rem;
+    }
+    
+    
+    .wp-block-column.is-vertically-aligned-top.revival_left_col {
+        margin-top: 35px;
+    }
+    
+    .wp-block-column.is-vertically-aligned-top.revival_right_col {
+        margin-top: 4rem;
+    }
+    
+    /* NEW STYLES FOR LATEST PDF PATHWAY PAGE */
+    
+    p.pathway_text.has-seaweed-green-color.has-text-color {
+        justify-content: left;
+    }
+    
+    /* Canadian Revival Retreats */
+    
+    .wp-block-columns.logos_0_desktop {
+        margin-top: 10%;
+    }
+    .wp-block-columns.top_logos {
+        border-bottom: 1px solid #2889A8;
+        margin-bottom: 70px;
+        margin-top: -32px;
+        padding-bottom: 37px;
+    }
+    .wp-block-columns.logos_0_mobile {
+        display: none;
+    }
+    .MyDonateButtons{
+        margin: 0 auto;
+        padding: 25px;
+        width: 300px;
+        text-align: center;
+        border: 3px solid #dfa13a;   
+    }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
