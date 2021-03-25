@@ -1,837 +1,1903 @@
+/************************* FONTS **************************/
+
 @font-face {
     font-family: "ObjectSans-heavy";
     src: url(../fonts/ObjectSans-Heavy.otf);
-    
-    }
-    
-    @font-face {
-        font-family: "ObjectSans-regular";
-        src: url(../fonts/ObjectSans-Regular.otf);
-        }
-    
+}
 
-    strong{
-        font-family: "ObjectSans-heavy";
-    }
+@font-face {
+    font-family: "ObjectSans-regular";
+    src: url(../fonts/ObjectSans-Regular.otf);
+}
 
-    #primary {
-        margin: 0rem 7rem;
-    }
-    
-    .donateBtn:active{
-            transform: translateY(2px);
-        }
-    /*                            SCREEN SETTINGS                */
-    /* SETTING WIDTH of ALL PAGES */
-    body{
-        overflow-x: hidden;
-    }
-    .emailTransfer{
-        text-decoration: underline;
-            }
-            
-    .page{
-        margin: 0 0 0em
-    }
-    
-    .grid-container{
+strong {
+    font-family: "ObjectSans-heavy";
+}
+@media (min-width: 782px){
+.wp-block-column:not(:first-child){
+    margin-left: 0;
+}
+.wp-block-column{
+    margin: 10px;
+}
+}
+/*                            SCREEN SETTINGS                */
+
+/* SETTING WIDTH of ALL PAGES */
+body {
+    overflow-x: hidden;
+}
+
+.emailTransfer {
+    text-decoration: underline;
+}
+
+.grid-container {
     max-width: 95rem;
-    }
-    
-    p{
-        font-family: "ObjectSans-regular";
-        font-size: 20px ; 
-    }
-    
-    h1, h2, h3, h4, h5, h6{
-        font-family: "ObjectSans-heavy";
-    }
-    
-    h1{
-        font-family: 2.5em;
-    }
-    
-    /*                               DEFAULT BLOCK                  */
-    
-    .wp-block-columns{
-        margin-bottom: 0px;
-    }
-    
-    
-    /*                            HEADER & FOOTER                  */
-    /* CSS For Header and Footer Changes*/
-    .mainLogo{
-        padding-top: 35px;
-    }
-    
-    .main-navigation{
-        margin-left: 17px;
-    }
-    /* Main Logo CSS */
-    .main-navigation li{
-        height: 60px;
-        width: 16.25%;
-        font-size: 15px;
-        background-color: #F3F3F3;
-        padding-top: 4px;
-        text-align: center;
-        margin-left: 2px;
-        transition: all .3s ease-out;
-    }
-    .main-navigation li:hover, .main-navigation li a:hover{
-        background-color: #2889A8;
-        color: #F3F3F3;
-    }
-    .main-navigation li a{
-        height: 100%;
-        text-transform: uppercase;
-        color: #2889A8;
-    }
-    .socials img{
-        float: right;
+}
+
+p {
+    font-family: "ObjectSans-regular";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "ObjectSans-heavy";
+}
+
+
+
+/*                               DEFAULT BLOCK                  */
+
+.wp-block-columns {
+    margin-bottom: 0px;
+}
+
+
+/*                            HEADER & FOOTER                  */
+/* CSS For Header and Footer Changes*/
+.mainLogo {
+    margin-top: -40px;
+    margin-bottom: 60px;
+}
+
+.main-navigation {
+    margin-left: 17px;
+}
+
+/* Main Logo CSS */
+.main-navigation li {
+    height: 60px;
+    width: 16.25%;
+    font-size: 15px;
+    background-color: #F3F3F3;
+    padding-top: 4px;
+    text-align: center;
+    margin-left: 2px;
+    transition: all .3s ease-out;
+}
+
+.main-navigation li:hover,
+.main-navigation li a:hover {
+    background-color: #2889A8;
+    color: #F3F3F3;
+}
+
+.main-navigation li a {
+    height: 100%;
+    text-transform: uppercase;
+    color: #2889A8;
+}
+
+.socials img {
+    float: right;
+    margin-left: 10px;
+    margin: 20px;
+}
+
+#primary {
+    margin: 0rem 0rem;
+}
+
+/* Footer Css */
+
+
+/*                                              MOBILE   VIEW                                   */
+
+
+/*----------------------------------------------------- SCREEN SETTING ---------------------------------------------------------*/
+
+.DonationButtons{
+    border: #dfa13a solid 2px;
+}
+
+.socials img {
+    float: left;
+    margin-left: 10px;
+    margin: 7px;
+    height: 30px;
+}
+.socials{
+    padding-left: 40%;
+    padding-top: 10px;
+}
+.grid-container {
+    padding: 0rem;
+}
+
+/*----------------------------------------------------- FONTS  ---------------------------------------------------------*/
+
+#wpforms-8,
+h3,
+h2,
+h1,
+p,
+h3 {
+    padding: 0rem 1.2rem;
+}
+
+h1,
+h2 {
+    font-size: 2em;
+}
+
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 18px;
+}
+
+
+
+/*-----------------------------------------------------HOME---------------------------------------------------------*/
+
+.listItemHome{
+    margin-top: -1.1rem;
+}
+
+#naturally, #truthAndLove {
+    margin-top: -1rem;
+}
+
+#homeDesktopImg {
+    display: none;
+}
+
+.wp-image-1069 {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: -30%;
+}
+
+
+
+
+
+/*----------------------------------------------------  MISSION AND VISSION   ---------------------------------------------------------*/
+
+
+
+
+#missionHead {
+    margin-top: 2rem;
+}
+
+
+#missionBottomText {
+    margin-bottom: 0rem;
+}
+
+#desktopVisionImg,
+#desktopMissionImg {
+    display: none;
+}
+
+.wp-image-501 {
+    display: none;
+}
+
+
+.wp-image-1098 {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: -44.1%;
+}
+
+
+#missionFlameMob {
+    margin-top: 16%;
+}
+
+#visionFlameMob {
+    margin-top: 2.9rem;
+}
+
+/*----------------------------------------------------  PATHWAY TO SUCCESS   ---------------------------------------------------------*/
+
+.wp-block-image.size-large.tablet_pathway_image {
+    display: none;
+}
+
+.wp-image-496 {
+    display: none;
+}
+
+.wp-block-image.size-large.pathway_ala_flame {
+    transform: rotate(90deg);
+    margin-top: -44%;
+    width: 57%;
+    margin-left: 22%;
+    position: relative;
+}
+
+.wp-block-column.pathway_to_success {
+    margin-top: -10%;
+}
+
+
+h2.pathway_h2.has-mustard-color.has-text-color {
+    text-align: left;
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+
+p.revival_text.has-sky-blue-color.has-text-color {
+    font-size: 20px;
+}
+
+
+.pathwayLink{
+    margin-bottom: 2rem;
+}
+
+h2.revival_heading.has-mustard-color.has-text-color {
+    font-size: 29px;
+
+}
+
+/* Flame*/
+.wp-image-991 {
+    width: 30%;
+    margin-top: -25%;
+    margin-left: 34%;
+}
+
+.wp-block-columns.revival_block {
+    margin-top: 40px;
+    padding-bottom: 10px;
+
+}
+
+.revival_text.has-sky-blue-color.has-text-color {
+    line-height: 1.3rem;
+}
+
+/**/
+.wp-block-column.mobileImgCol {
+    flex-basis: 50% !important;
+}
+
+.wp-block-image.size-large.is-resized.mobileImg {
+    margin-left: 2rem;
+}
+
+.wp-block-column.is-vertically-aligned-top.revival_left_col {
+    height: 100px;
+    padding: 10px;
+}
+
+.wp-block-column.is-vertically-aligned-top.revival_right_col {
+    margin-left: 227px;
+    margin-top: -98px;
+    padding: 10px;
+}
+
+/* Canadian Revival Retreats */
+
+.wp-block-column.canadian_revival_logos {
+    margin-top: 24%;
+}
+
+.wp-block-columns.logos_0_desktop {
+    display: none;
+}
+
+figure.wp-block-image.size-large.is-resized.mobileImg.second {
+    margin-left: 2.8rem;
+}
+
+.wp-block-columns.logos_0_mobile {
+    padding: 0.5rem;
+}
+
+.wp-block-column.mobileImgCol {
+    border-bottom: 1px solid #2889A8;
+    margin-bottom: 1rem;
+}
+
+.desktopImgPathway{
+    display: none;
+}
+
+
+
+/*-----------------------------------------------------FAMILY REVIVAL ---------------------------------------------------------*/
+.FRI {
+    margin-top: 50px;
+}
+
+.FRI img {
+    width: 200px;
+
+}
+
+.FRT {
+    margin-bottom: 50px;
+}
+
+.family_head {
+    padding-top: 50px;
+}
+
+.wp-image-537 {
+    display: none;
+}
+
+/* todo*/
+#FRR-img-contain {
+    position: relative;
+    min-height: 70vh;
+}
+
+#FRR-right-col {
+    padding-left: 2%;
+}
+
+
+
+#upside-flame {
+    position: absolute;
+    margin: 0 35%;
+    bottom: -12%;
+    width: 30%;
+}
+
+#FRR-nav {
+    text-align: center;
+    width: 100%;
+}
+
+.desktop {
+    display: none;
+}
+
+
+/*-----------------------------------------------------   OUR FAMILY ---------------------------------------------------------*/
+
+.per {
+    margin-left: -8px;
+}
+
+.wp-block-embed__wrapper {
+    position: relative;
+    margin-left: 15px;
+    width: 490px;
+}
+
+.fl {
+    margin-left: 160px !important;
+    margin-top: 210px;
+    position: absolute;
+    z-index: 1000;
+    height: 20px !important;
+    width: 200px !important;
+}
+
+.fam {
+    font-size: 32px;
+    margin-left: -2px;
+    margin-top: 200px;
+}
+
+.q1 {
+    width: 90%;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 4rem;
+    margin-left: 5%;
+} 
+
+.ourfam{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.DonationButtons {
+    color: #dfa13a;
+    border: #dfa13a solid 2px;
+    background-color: #F3F3F3 !important;
+
+}
+
+.DonationButtons>.has-text-color {
+    color: #dfa13a
+
+}
+
+
+
+/*----------------------------------------------------  CONTACT    ---------------------------------------------------------*/
+
+
+
+#CU-flip-flame {
+    margin: -32% 30% 0%;
+    width: 40%;
+}
+
+label {
+    color: #E0A13B;
+}
+
+div.wpforms-container-full .wpforms-form input[type=text],
+div.wpforms-container-full .wpforms-form input[type=email],
+div.wpforms-container-full .wpforms-form textarea {
+    border: 1px solid #2989AA;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    background-color: #2989AA;
+    border: 1px solid #2989AA;
+    color: white;
+}
+
+/*----------------------------------------------------  DONATION    ---------------------------------------------------------*/
+
+.MyDonateButtons {
+    margin: 0 auto;
+    padding: 25px;
+    width: 262px;
+    text-align: center;
+    border: 2px solid #dfa13a;
+}
+
+.MyDonateButtons:hover {
+    margin: 0 auto;
+    padding: 25px;
+    width: 262px;
+    text-align: center;
+    box-shadow: 3px 3px 4px #dfa13a;
+    border: 2px solid #dfa13a;
+}
+
+
+.donationImg2 > img {
+    margin-left: 30%;
+    width: 40%;
+    margin-top: -32%;
+}
+
+.donationPara {
+    z-index: 300;
+    position: relative;
+}
+
+.is-style-outline > .wp-block-button__link:not(.has-background), .wp-block-button__link.is-style-outline:not(.has-background) {
+    background-color: white;
+    text-align: center;
+    border: 2px solid #dfa13a;
+    color: #dfa13a;
+
+}
+
+.donateBtn:active {
+    transform: translateY(2px);
+}
+
+.wp-image-797 {
+    display: inline;
+}
+
+.wp-image-761 {
+    display: none;
+}
+
+.DonateText {
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.DonationWorks {
+    margin-bottom: 40px;
+}
+
+.wpedon_paypalbuttonimage {
+    border: none;
+    height: 43px;
+    text-align: center;
+    position: relative;
+    left: 33%;
+}
+/*New */
+.wp-block-column:nth-child(2n) {
+    margin-left: 0em;
+}
+
+
+/*                                              TABLET   VIEW                                   */
+
+@media (min-width: 768px) and (max-width:1023px) {
+
+
+    /*----------------------------------------------------- FONTS  ---------------------------------------------------------*/
+    .socials img {
+        float: left;
         margin-left: 10px;
         margin: 20px;
     }
-    
-    /*          Search          */
-    .search-container {
-        width: 20%;
-        padding: 3px;
-        background-color: #2e89aa;
-        height: 45px;
+
+    .socials{
+        padding-left: 40%;
     }
-    .search-container form button img{
-        margin-left: 5px;
-        margin-bottom: 2px;
+    .fr_block{
+        width: 500px;
     }
-    .search-container form input{
-        border: solid #2e89aa 1.5px;
-        border-radius: 0;
-        width: 85%;
-        display: inline-block;
+    h1,
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 20px;
+    }
+    .q1{
+        width: 100%;
+        font-size: 20px;
+    }
+    /*----------------------------------------------------- HOME  ---------------------------------------------------------*/
+
+    #blockLeftHome, #localHeroesCenter{
+        flex-basis: calc(100% - 1em) !important
+    }
+
+    .wp-image-1069 {
+        width: 40%;
+        margin-left: 30%;
+        margin-top: -30%;
+    }
+
+    
+
+
+
+    /*------------------------------------------------MISSION AND VISSION ---------------------------------------------------------*/
+
+    #post-20 .wp-block-column:not(:only-child) {
+        flex-basis: calc(100% - 1em) !important;
     }
     
+    #visionFlameMob {
+        margin-top: 14%;
+    }
+
+    /*------------------------------------------------PATHWAY OF SUCCESS ---------------------------------------------------------*/
+
     
-    /* Footer Css */
-    
-    
-    
-    /**
-                                                                HOME PAGE STYLING
-    */
-    
-    
-    .wp-image-436 {
+    .wp-block-image.size-large.tablet_pathway_image {
+        display: block;
+    }
+
+    .wp-block-image.size-large.pathway_ali_img {
         display: none;
     }
 
-
-    .homePageSpaceText.has-seaweed-green-color.has-text-color {
-        margin-top: 2rem;
+    h2.pathway_h2.has-mustard-color.has-text-color {
+        text-align: left;
     }
 
-    #homeHeroes {
-        margin: 0rem 7rem;
-        margin-bottom: 2rem;
-    }
-
-    .wp-block-column.truthAndLoveMob {
-        display: none;
-    }
-    
-    
-    
-    
-    /**
-                                                                VISION and MISSION PAGE 
-    */
-    
-    
-    .wp-image-501 {
-        margin: -27% 0% 0% 80.5%;
+    .wp-block-image.size-large.pathway_ala_flame {
+        margin-left: -45%;
+        margin-top: -64%;
+        transform: rotate(90deg);
+        width: 86%;
         position: relative;
-        z-index: 1;
-    }
-    
-    #post-20 .wp-block-image{
-        margin-bottom: 0px;
-    }
-    
-    
-    
-    .wp-image-421 {
-        display: none;
-    }
-    
-    .wp-image-420 {
-        display: none;
-    }
-    
-    #missionHead {
-        margin-top: -10rem;
-    }
-    
-    .wp-image-500 {
-        display: none;
-    }
-    
-    .wp-image-531 {
-        margin-left: -2rem;
-        position: absolute;
-        width: 42%;
-        margin-top: -12.4rem;
-    }
-    
-    #mission-and-vission #colophon {
-        margin-top: 2rem;
-    }
-    
-    /* Targetting text */
-    
-    #visionText {
-        margin-top: -2rem;
-    }
-    
-    .visionCol{
-        padding-left: 2.3rem;
-    }
-    
-    #reachOut, #reachOut2{
-        margin-top: -1rem;
     }
 
-    #missionBottomText{
-        margin-bottom: 8rem;
+    /* .wp-block-column.pathway_to_success {
+        margin-top: 20%;
     }
-    
-    .missionText, .missionCol {
-        padding-right: 1.5rem;
-        padding-left: 2rem;
+
+ */
+
+
+
+#revivalTrainCol {
+    margin: 0rem 12rem 3rem 12rem;
+}
+
+.canadian_revival_h2{
+    width: 20rem;
+
+}
+
+#revivalRetreatCol {
+    flex-basis: calc(100% - 1em) !important;
+    flex-grow: 0;
+}
+
+#pathwaySuccessCol, .canadian_revival_logos, #revivalTrainCol{
+    flex-basis: calc(100% - 1em) !important;
+}
+
+
+    .wp-image-495 {
+        display: none;
     }
-    
-    /* Setting Footer*/
-    #post-20 #colophon {
-        margin-top: 5rem;
+
+    .wp-image-496 {
+        display: inline;
     }
-    
-    /**
-                                                            CONTACT PAGE STYLING
-    */
-    
-    
+
+    .revival_text.has-sky-blue-color.has-text-color {
+        line-height: 1.3rem;
+    }
+
+
+    .wp-block-column.is-vertically-aligned-top.revival_left_col {
+        margin-top: 35px;
+    }
+
+    .wp-block-column.is-vertically-aligned-top.revival_right_col {
+        margin-top: -5rem;
+    }
+
+    /* NEW STYLES FOR LATEST PDF PATHWAY PAGE */
+
+    p.pathway_text.has-seaweed-green-color.has-text-color {
+        justify-content: left;
+    }
+
+    /* Canadian Revival Retreats */
+
+    .wp-block-columns.logos_0_desktop {
+        margin-top: 10%;
+    }
+
+    .wp-block-columns.top_logos {
+        border-bottom: 1px solid #2889A8;
+        margin-bottom: 70px;
+        /*margin-top: -32px;*/
+        padding-bottom: 37px;
+    }
+
+    .wp-block-columns.logos_0_mobile {
+        display: none;
+    }
+
+    .wp-block-columns.logos_0_desktop {
+        display: inline;
+    }
+
+    .wp-block-column.canadian_revival_logos {
+        margin-top: 0%;
+    }
+
+    .wp-block-column.canadian_revival_logos {
+        margin-top: 0%;
+        flex-basis: calc(100% - 1em) !important;
+    }
+
+    /*--------------------------------------------------FAMILY REVIVAL   ---------------------------------------------------------*/
+    .FRT {
+        text-align: center;
+        font-size: 15px;
+        line-height: 17px;
+    }
+    #FRR-img-contain {
+        position: relative;
+        min-height: 50vh;
+        margin-left: 0%;
+    }
+
+    #FRR-right-col {
+        padding-left: 2%;
+    }
+
+
+    #float-flame {
+        width: 30%;
+margin-left: 33%;
+margin-top: -23%;
+    }
+
+
+#FRR-right-col {
+
+    flex-basis: calc(100% - 1em) !important;
+
+}
+
+#ImageTarget{
+    flex-basis: calc(100% - 1em) !important;
+}
+
+
+    .mobile {
+        display: none;
+    }
+
+    /*---------------------------------------------------OUR FAMILY  ---------------------------------------------------------*/
+
+    /*---------------------------------------------------OUR FAMILY  ---------------------------------------------------------*/
+
+    .entry-title {
+        visibility: hidden;
+    }
+
+    /*.has-mustard-color {
+            color: #dfa13a;
+            margin-left: 30px;
+        }*/
+    .fam {
+        margin-left: 4px;
+    }
+
+    h2 {
+        width: 400px;
+    }
+
+    .wp-block-embed__wrapper {
+        position: relative;
+        margin-left: 33px;
+        width: 400px;
+    }
+
+    .title{
+        margin-left: 10px;
+    }
+
+    .fl {
+        margin-left: -19px !important;
+        z-index: 1000;
+        position: absolute;
+
+    }
+
+    /* .q1 {
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: 17px;
+        width: 270px;
+    } */
+
+    .q2 {
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: -245px;
+        width: 270px;
+    }
+
+    .q3 {
+        font-size: 17px;
+        margin-top: -100px;
+        margin-left: 33rem;
+        width: 270px;
+    }
+
+    .q4 {
+        font-size: 17px;
+        margin-top: -100px;
+        margin-left: 15rem;
+        width: 270px;
+    }
+
+    /* .btn {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+
+        } 
+    .btn:hover {
+            background-color: #2889A8;
+            color: white;
+         }   */
+
+    .ourfam {
+        margin-top: 30px;
+        margin-left: 300px;
+    }
+    .DonationButtons {
+        color: #dfa13a;
+        border: #dfa13a solid 2px;
+        background-color: #F3F3F3 !important;
+        height: auto !important;
+
+    }
+
+    .DonationButtons>.has-text-color {
+        color: #dfa13a
+
+    }
+
+    .hentry{
+        margin-left: 2px;
+    }
+    /*--------------------------------------------------- CONTACT   ---------------------------------------------------------*/
+
+    .wp-block-image.desktop {
+        display: block;
+    }
+
+    .wp-block-image.mobile {
+        display: none;
+    }
+
+
+
+
+    #wpforms-8 {
+        padding-left: 10%;
+    }
+
     label {
-        color:#E0A13B;
+        color: #E0A13B;
     }
-    
-    div.wpforms-container-full .wpforms-form input[type=text],div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form textarea{
-        border:1px solid #2989AA;
+
+    div.wpforms-container-full .wpforms-form input[type=text],
+    div.wpforms-container-full .wpforms-form input[type=email],
+    div.wpforms-container-full .wpforms-form textarea {
+        border: 1px solid #2989AA;
     }
-    
+
     div.wpforms-container-full .wpforms-form button[type=submit] {
         background-color: #2989AA;
         border: 1px solid #2989AA;
         color: white;
     }
-    /* Family  */
-    .FRI{
+
+    #CU-flame {
+        margin: -29% 30% 0%;
+        width: 40%;
+    }
+
+    /*--------------------------------------------------- DONATION ---------------------------------------------------------*/
+    .wp-block-column.DonationTextBlock {
+        flex-basis: calc(100% - 1em) !important;
+    }
+
+    #ImageDonation {
+        flex-basis: calc(100% - 1em) !important;
+    }
+
+    #contactTarget{
+        flex-basis: calc(100% - 1em) !important;
+    }
+    #formTarget{
+        flex-basis: calc(100% - 1em) !important;
+    }
+
+    .DonationButtons{
+        border: #dfa13a solid 2px;
+        height: 130px;
+    }
+}
+
+
+/*@media only screen and (min-width: 1023px) and (max-width: 2000px) { /* Your Styles... */ 
+
+
+
+/*****************           DESKTOP    - 13inch      ***************************************** */
+
+@media (min-width: 1023px) and (max-width: 1500px) {
+    /*----------------------------------------------------- FONTS  ---------------------------------------------------------*/
+    .socials img {
+        float: right;
+        margin-left: 10px;
+        margin: 20px;
+    }
+
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    h1, h2 {
+        font-size: 27px;
+    }
+    
+    p {
+        font-size: 17px;
+    }
+
+    /*                          SCREEN SETTING                         */
+
+    .page {
+        margin: 0 0 0em
+    }
+
+    #primary {
+        margin: 0rem 0.5rem;
+    }
+
+
+
+    .grid-container {
+        max-width: 79rem;
+    }
+
+
+
+    /*----------------------------------------------------- HOME  ---------------------------------------------------------*/
+
+
+    #homeFlame {
+        position: absolute;
+        width: 41%;
+        margin-left: 33.5rem;
+        z-index: 1;
+        margin-top: 17.7rem;
+    }
+
+    #homeDesktopImg {
+        display: inline;
+        position: absolute;
+        margin-left: -10%;
+        width: 40%;
+    }
+    
+    .wp-image-1069 {
+        width: 50%;
+        margin-left: 22%;
+        margin-top: -48%;
+    }
+
+    .homeFirstPara{
+        margin-bottom: 2rem;
+    width: 70%; 
+    }
+
+    #mobileImgHome{
+        display: none;
+    }
+
+
+
+
+
+    /*------------------------------------------------MISSION AND VISSION ---------------------------------------------------------*/
+    /* Desktop Flame*/
+    .wp-image-501 {
+        display: inline;
+        margin: -31.5% 0% 0% 77%;
+        position: relative;
+        z-index: 1;
+    }
+
+    #visionFlameMob,
+    #missionFlameMob {
+        display: none;
+    }
+
+    #desktopVisionImg,
+    #desktopMissionImg {
+        display: inline;
+    }
+
+    #desktopMissionImg {
+        margin: -12.5rem 1rem 0rem -2rem;
+        position: absolute;
+    }
+
+    #post-20 .wp-block-image {
+        margin-bottom: 0px;
+    }
+
+    #missionHead {
+        margin-top: -10rem;
+    }
+
+    #missionMobileImg,
+    #mobileMissionImgTwo {
+        display: none;
+    }
+
+    #mission-and-vission #colophon {
+        margin-top: 2rem;
+    }
+
+    /* Targetting text */
+
+    #visionText {
+        margin-top: -2rem;
+    }
+
+    .visionCol {
+        padding-left: 2.3rem;
+    }
+
+    #reachOut,
+    #reachOut2 {
+        margin-top: -1rem;
+    }
+
+    #missionBottomText {
+        margin-bottom: 8rem;
+    }
+
+    .missionText,
+    .missionCol {
+        padding-right: 1.5rem;
+        padding-left: 2rem;
+    }
+
+    #bottomCss{
+        margin-bottom: 9rem;
+    }
+
+
+
+    /*------------------------------------------------PATHWAY OF SUCCESS ---------------------------------------------------------*/
+
+    .wp-block-image.size-large.tablet_pathway_image {
+        display: none;
+    }
+
+    .wp-image-495 {
+        display: none;
+    }
+
+    /* Flame*/
+    .wp-image-991 {
+        width: 16%;
+        position: absolute;
+        margin-left: 29.5rem;
+        margin-top: 17rem;
+    }
+
+    .wp-block-image.size-large.pathway_ala_flame {
+        margin-left: -55%;
+        margin-top: 3%;
+        transform: rotate(0deg);
+        width: 100%;
+        position: relative;
+    }
+
+    .wp-block-column.pathway_to_success {
+        margin-top: 0%;
+    }
+
+    #pathwaySuccessCol {
+        padding-left: 5rem;
+    }
+
+
+    .revival_text.has-sky-blue-color.has-text-color {
+        line-height: 1.3rem;
+    }
+
+    .mobileImgPathway{
+        display: none;
+    }
+
+    .desktopImgPathway{
+        display: inline;
+    }
+
+
+    .wp-block-column.is-vertically-aligned-top.revival_left_col {
+        margin-top: 35px;
+    }
+
+    .wp-block-column.is-vertically-aligned-top.revival_right_col {
+        margin-top: 4rem;
+    }
+
+    /* NEW STYLES FOR LATEST PDF PATHWAY PAGE */
+
+    p.pathway_text.has-seaweed-green-color.has-text-color {
+        justify-content: left;
+    }
+
+    /* Canadian Revival Retreats */
+
+    .wp-block-columns.logos_0_desktop {
+        margin-top: 10%;
+    }
+
+    .wp-block-columns.top_logos {
+        border-bottom: 1px solid #2889A8;
+        margin-bottom: 70px;
+        /*margin-top: -32px;*/
+        padding-bottom: 37px;
+    }
+
+    .wp-block-columns.logos_0_mobile {
+        display: none;
+    }
+
+    .wp-block-columns.logos_0_desktop {
+        display: inline;
+    }
+
+    .wp-block-column.canadian_revival_logos {
+        margin-top: 0%;
+    }
+
+
+    /*--------------------------------------------------FAMILY REVIVAL   ---------------------------------------------------------*/
+
+    .FRI {
         text-align: center;
         margin-top: 100px;
+        width: 60%;
+        margin-left: 20%;
     }
-    .FRT{
+
+    .FRT {
         text-align: center;
         margin-bottom: 50px;
         line-height: 25px;
+        margin-left: 2rem;
     }
-    .NAh{
+
+    .NAh {
         font-size: 30px;
     }
-    .FRSH{
+
+    .FRSH {
         font-weight: 500;
     }
-    .family_head{
-        padding-top: 200px;
-    }
-    .PIA_blocks{
+
+    /* .family_head{
+            padding-top: 200px;
+        } */
+    .PIA_blocks {
         margin: 30px;
     }
-    .PE_Block{
+
+    .PE_Block {
         padding-left: 10%;
     }
-    .NR_subhead{
+
+    .NR_subhead {
         font-size: 30px;
     }
-    .PIA_list{
+
+    .PIA_list {
         text-align: center;
         list-style: none;
         font-size: 20px;
     }
-    .PIA_sep{
+
+    .PIA_sep {
         border-bottom: 2px solid #2E89AA;
         max-width: 100%;
     }
-    .entry-meta, .entry-footer{
+
+    .entry-meta,
+    .entry-footer {
         display: none;
     }
-    /*                                                      TESTIMONIALS ===   OUR FAMILY                      */
-    .entry-title{
-        visibility: hidden;
-    }
-    
-    /*.has-mustard-color {
-        color: #dfa13a;
-        margin-left: 30px;
-    }*/
-    .fam{
-        margin-left: -10px;
-    }
-/*   .wp-block-embed__wrapper {
+
+    #FRR-img-contain {
         position: relative;
-        margin-left: 33px;
-        width: 700px;
-    }*/
-    .fl {
-        position: absolute;
-        margin-top: 64px;
+        min-height: 100vh;
     }
 
+    #FRR-right-col {
+        padding-left: 2%;
+    }
+
+    #under-img {
+        position: absolute;
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    #float-flame {
+        position: absolute;
+        right: -12%;
+        bottom: 1.5%;
+        width: 25%;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+
+    /*---------------------------------------------------OUR FAMILY  ---------------------------------------------------------*/
+
+    .entry-title {
+        visibility: hidden;
+    }
+
+    .title{
+        margin-left: 10px;
+        padding-top: 5px;
+    }
+
+    /*.has-mustard-color {
+            color: #dfa13a;
+            margin-left: 30px;
+        }*/
+    .fam {
+        margin-left: -10px;
+    }
+
+    .wp-block-embed__wrapper {
+        position: relative;
+        margin-left: 33px;
+        width: 600px;
+    }
+
+
     .fl {
-        margin-left: -14.6rem !important;
+        margin-left: 20px !important;
+        margin-top: -3px;
         z-index: 1000;
         position: absolute;
+
     }
-    
-    .q1{
+
+    /* .q1 {
         font-size: 19px;
         margin-top: 20px;
         margin-left: 20px;
         width: 300px;
-    }
-    .q2{
+    } */
+
+    .q2 {
         font-size: 19px;
         margin-top: 20px;
-        margin-left: -350px;
+        margin-left: -250px;
         width: 300px;
     }
-    .q3{
+
+    .q3 {
         font-size: 19px;
         margin-top: -110px;
-        margin-left: 50rem;
+        margin-left: 40rem;
         width: 300px;
     }
-    .q4{
+
+    .q4 {
         font-size: 19px;
         margin-top: -110px;
-        margin-left: 25rem;
+        margin-left: 20rem;
         width: 350px;
     }
-    .wp-block-column .wp-block-buttons .wp-block-button {
-       margin-left: 50px;
-       margin-right: 50px;
-       margin-top: 20px;
-    }
-    /* .wp-block-column .wp-block-buttons .wp-block-button:hover {
-        background-color: #2889A8;
-        color: white;
-     } */
-     
-    .ourfam{
+
+
+    .ourfam {
         margin-top: 30px;
     }
-    .pum-theme-906 .pum-title, .pum-theme-default-theme .pum-title {
-        color: #dfa13a;
-        text-align: left;
-        text-shadow: 0px 0px 0px rgb(2 2 2 / 23%);
-        font-family: inherit;
-        font-weight: 400;
-        font-size: 32px;
-        font-style: normal;
-        line-height: 36px;
+
+
+    .hentry{
+        margin-left: 100px;
+        margin-top: -70px;
     }
 
-    .wp-image-84 {
+    /*--------------------------------------------------- CONTACT   ---------------------------------------------------------*/
+
+    label {
+        color: #2c2a26;
     }
-    
-    /**
-    blockquote, blockquote p {
-        line-height: 1.6;
-        color:#396134;
+
+    div.wpforms-container-full .wpforms-form input[type=text],
+    div.wpforms-container-full .wpforms-form input[type=email],
+    div.wpforms-container-full .wpforms-form textarea {
+        border: 1px solid #2989AA;
     }
-    .wp-block-image{
-        background-color: #2889A8;
-    }
-    h5{
-        background-color: #2889A8;
-        color: #396134;
-    }
-    .hea{
-        background-color: #2e89aa;
+
+    div.wpforms-container-full .wpforms-form button[type=submit] {
+        background-color: #2989AA;
+        border: 1px solid #2989AA;
         color: white;
     }
-    .wp-block-columns {
-        margin-left: 10px;
-    }**/
-    /* Testimonials and Partners ending */
-    
-    
-    
-    
-    /*                                                      DONATION                   */
-    /*.wp-block-columns{
-        margin-left: 232px  !important;
-    
-    } */
-    .Presenting_Problems{
-        margin-left: 347px  ;
-    }
-    .myTable{
-        margin: 0 auto;
-        width: 70%  !important;
-        height: auto;
-        overflow-x:auto;
-    }
-    .myTable th{
-        background-color: #E0A13B;
-        color:#396134;
-    }
-    .myTable tr{
-        background-color: white;
-        color: #396134;
-    }
-    
-    
-    .wp-image-797 {
-        display: none;
-    }
-    /*     
-    
-    
-    
-    TABLET VIEW                             */
-    
-    
-    @media (min-width: 768px){
-    
-    /*    h1,h2{
-            font-size: 32px;
-        }
-    
-        h3{
-            font-size: 1.5rem;
-        }
-    
-        p{
-            font-size: 20px;
-        }
 
-    */
-
-    /************************************* OUR FAMILY PAGE ************************************/
-
-        /* .wp-block-embed__wrapper {
-            position: relative;
-            margin-left: 53px;
-            width: 750px;
-        }
-        .wp-image-84{
-            margin-left: 230px;
-        }
-        .per{
-            margin-left: 70px;
-        }
-        .fam{
-            margin-left: -530px;
-            margin-top: 450px;
-        }
-        .para{
-            font-size: 9px;
-            margin-left: -540px;
-            width: 900px;
-        }
-
-        .q1{
-            margin-top: 20px;
-            margin-left: 30px;
-            width: 200px;
-        }
-        .q2{
-            margin-top: 20px;
-            margin-left: -240px;
-            width: 200px;
-        }
-        .q3{
-            margin-top: -165px;
-            margin-left: 500px;
-            width: 200px;
-        }
-        .q4{
-            margin-top: -165px;
-            margin-left: 250px;
-            width: 200px;
-        } */
-    
-    /************************************* ENDING OUR FAMILY PAGE ************************************/
-
-        /*  CONTACT PAGE   */
-        .wp-block-image.desktop {
-            display:block;
-        }
-    
-        .wp-block-image.mobile {
-            display:none;
-        }
-    
-        /* Mission and Vission 
-    
-        .wp-image-420 {
-            display: inline;
-            position: relative;
-            width: 100%;
-            margin-left: 0rem;
-            margin-top: 1rem;
-        }
-    
-        .wp-image-421 {
-            display: inline;
-        }
-    
-    
-        .wp-image-499 {
-            display: none;
-        }
-    
-        .wp-image-500 {
-            display: inline;
-        }
-    
-        .wp-image-501 {
-            display: none;
-        }
-    
-        .wp-image-531 {
-            display: none;
-        }
-    
-        #post-20 .wp-block-column:not(:only-child) {
-            flex-basis: calc(100% - 1em) !important;
-        }
-    */
-    
-    
-            /* THIS IS PATHWAY TO SUCCESS TABLET PAGE */
-    
-    h2.pathway_h2.has-mustard-color.has-text-color {
-        text-align: left;
-    }
-    
-    }
-    
-    /*                                      MOBILE VIEW                             */
-    @media (max-width: 599px) {
-
-        #primary {
-            margin: 0rem 0rem;
-        }
-    
-        /*                                  HOME                         */
-
-        .wp-image-436 {
-            display: inline;
-        }
-
-        #homeHeroes {
-            margin: 0rem 0rem;
-            margin-bottom: 2rem;
-        }
-
-        .wp-image-773 {
-            display: none;
-        }
-        
-        .wp-block-column.truthAndLoveMob {
-            display: inline;
-        }
-        #truthAndLove {
-            display: none;
-        }
-
-    
-    
-        /*                                  FAMILY REVIVAL                          */
-        .FRI{
-            margin-top: 50px;
-        }
-        .FRI img{
-            width: 200px;
-            
-        }
-        .FRT{
-            margin-bottom: 50px;
-        }
-        .family_head{
-            padding-top: 50px;
-        }
-
-        .wp-image-537 {
-            display: none;
-        }
-        
-        /* ******************************** OUR FAMILY ********************* */
-
-        .per{
-            margin-left: -8px;
-        }
-
-        .wp-block-embed__wrapper {
-            position: relative;
-            margin-left: 15px;
-            width: 490px;
-        }
-        .wp-image-84{
-            margin-left: 290px;
-            margin-top: -240px;
-        }
-        .fam{
-            font-size: 32px;
-            margin-left: -2px;
-            margin-top: 200px;
-        }
-        .q1, .q2, .q3, .q4{
-            width: 90%;
-            margin: 0rem 2rem;
-            font-size: 19px;
-            margin-top: 3rem;
-        }
-
-
-        /*                                  DONATION                        */
-    
-        .MyDonateButtons{
-            margin: 0 auto;
-            padding: 25px;
-            width: 262px;
-            text-align: center;
-            border: 2px solid #dfa13a;   
-        }
-        .MyDonateButtons:hover{
-            margin: 0 auto;
-            padding: 25px;
-            width: 262px;
-            text-align: center;
-            box-shadow: 3px 3px 4px #dfa13a;
-            border: 2px solid #dfa13a;   
-        }
-        /* Screen Setting for mobile View */
-    
-        .grid-container{
-            padding: 0rem;
-        }
-    
-        /* Setting Default Fonts for mobile*/
-    
-        #wpforms-8,h3, h2, h1, p, h3 {
-            padding: 0rem 1.2rem;
-        }
-    
-        h1,h2{
-            font-size: 2em;
-        }
-    
-    
-        h3{
-            font-size: 1.5rem;
-        }
-    
-        p{
-            font-size: 18px;
-        }
-    
-    
-    
-        /*    VISION AND MISSION*/
-    
-        .wp-image-335 {
-            display: none;
-            
-        }
-    
-        .wp-image-420 {
-            display: inline;
-            position: relative;
-            width: 100%;
-            margin-left: 0rem;
-            margin-top: 1rem;
-        }
-    
-        .wp-image-421 {
-            display: inline;
-        }
-    
-    
-        .wp-image-499 {
-            display: none;
-        }
-    
-        .wp-image-500 {
-            display: inline;
-        }
-    
-        .wp-image-501 {
-            display: none;
-        }
-    
-        .wp-image-531 {
-            display: none;
-        }
-    
-        #missionHead {
-            margin-top: 2rem;
-        }
-    
-        #post-20 #colophon {
-            margin-top: 0rem;
-        }
-
-        #missionBottomText{
-            margin-bottom: 0rem;
-        }
-    
-        /*  CONTACT PAGE   */
-    
-    
-    
-    
-        /* THIS IS PATHWAY TO SUCCESS MOBILE PAGE */
-
-        .wp-image-496 {
-            display: none;
-        }
-    
-    h2.pathway_h2.has-mustard-color.has-text-color {
-        text-align: left;
-        font-size: 32px;
-    }
-    
-    p.revival_text.has-sky-blue-color.has-text-color {
-        font-size: 20px;
-    }
-    
-    h2.revival_heading.has-mustard-color.has-text-color {
-        font-size: 29px;
-    
-    }
-    .wp-block-columns.revival_block {
-        margin-top: 40px;
-        padding-bottom: 10px;
-        
-    }
-    
-    /**/
-    .wp-block-column.mobileImgCol {
-        flex-basis: 50% !important;
+    #CU-contain {
+        position: relative;
+        min-height: 80vh;
     }
 
-    .wp-block-image.size-large.is-resized.mobileImg {
-        margin-left: 2rem;
+    #CU-img {
+        position: absolute;
+        width: 100%;
     }
-    
-    .wp-block-column.is-vertically-aligned-top.revival_left_col {
-        height: 100px;
-        padding: 10px;
+
+    #CU-flame {
+        position: absolute;
+        left: 90%;
+        bottom: -1%;
+        width: 20%;
     }
-    .wp-block-column.is-vertically-aligned-top.revival_right_col {
-        margin-left: 227px;
-        margin-top: -98px;
-        padding: 10px;
-    }
-    
-    /* Canadian Revival Retreats */
-    
-    .wp-block-column.canadian_revival_logos {
-        margin-top: 24%;
-    }
-    
-    .wp-block-columns.logos_0_desktop {
-        display: none;
-    }
-    
-        /* THIS IS HOME PAGE */
-    
-        .wp-image-436 {
-            display: inline;
-        }
-    
-    
-    
-        /*                          DONATION                */
-        .wp-image-797 {
-            display: inline;
-        }
-    
-        .wp-image-761 {
-            display: none;
-        }
-    
-        .DonateText{
-            margin-left: 25px;
-            margin-bottom: 15px;
-        }
-        .DonationWorks{
-            margin-bottom: 40px;
-        }
-    }
-    
-    /* DESKTOP */
-    
-    @media (min-width:769px){
-        /* THIS IS PATHWAY TO SUCCESS PAGE */
-    
-    
-    .revival_text.has-sky-blue-color.has-text-color {
-        line-height: 1.3rem;
-    }
-    
-    
-    .wp-block-column.is-vertically-aligned-top.revival_left_col {
-        margin-top: 35px;
-    }
-    
-    .wp-block-column.is-vertically-aligned-top.revival_right_col {
-        margin-top: 4rem;
-    }
-    
-    /* NEW STYLES FOR LATEST PDF PATHWAY PAGE */
-    
-    p.pathway_text.has-seaweed-green-color.has-text-color {
-        justify-content: left;
-    }
-    
-    /* Canadian Revival Retreats */
-    
-    .wp-block-columns.logos_0_desktop {
-        margin-top: 10%;
-    }
-    .wp-block-columns.top_logos {
-        border-bottom: 1px solid #2889A8;
-        margin-bottom: 70px;
-        margin-top: -32px;
-        padding-bottom: 37px;
-    }
-    .wp-block-columns.logos_0_mobile {
-        display: none;
-    }
-    .MyDonateButtons{
+
+    /*--------------------------------------------------- DONATION ---------------------------------------------------------*/
+
+
+    .MyDonateButtons {
         margin: 0 auto;
         padding: 25px;
         width: 300px;
         text-align: center;
-        border: 3px solid #dfa13a;   
+        border: 3px solid #dfa13a;
     }
+
+    .donationImg1 {
+        z-index: 1;
+        position: relative;
     }
-    
-    
-    
-    
-    
-    
-    
-    
+
+    .donationImg2>img {
+        z-index: 200;
+        position: relative;
+        left: 32%;
+        margin-top: -390px;
+        margin-left: 178px;
+    }
+
+    .Presenting_Problems {
+        margin-left: 347px;
+    }
+
+    .myTable {
+        margin: 0 auto;
+        width: 70% !important;
+        height: auto;
+        overflow-x: auto;
+    }
+
+    .myTable th {
+        background-color: #E0A13B;
+        color: #396134;
+    }
+
+    .myTable tr {
+        background-color: white;
+        color: #396134;
+    }
+
+    .wpedon_paypalbuttonimage{ border: none;
+        height: 43px;
+        text-align: center;
+        position: relative;
+        left: 33%;}
+
+    .wp-image-797 {
+        display: none;
+    }
+
+    .DonationButtons {
+        color: #dfa13a;
+        border: #dfa13a solid 2px;
+        background-color: #F3F3F3 !important;
+
+    }
+
+    .DonationButtons>.has-text-color {
+        color: #dfa13a
+    }
+;}
+
+
+/*****************           DESKTOP    - 15inch      ***************************************** */
+
+@media (min-width: 1501px){
+    .socials img {
+        float: right;
+        margin-left: 10px;
+        margin: 20px;
+    }
+#primary {
+    margin: 0rem 8.5rem;
+    /* 0rem 7rem*/
+}
+
+    /*----------------------------------------------------- FONTS  ---------------------------------------------------------*/
+
+    h1,
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+
+    /*                          SCREEN SETTING                         */
+
+    .page {
+        margin: 0 0 0em
+    }
+
+
+
+    .grid-container {
+        max-width: 95rem;
+    }
+
+
+    h1 {
+        font-family: 2.5em;
+    }
+
+
+
+    /*----------------------------------------------------- HOME  ---------------------------------------------------------*/
+
+    #homeDesktopImg {
+        display: inline;
+        position: absolute;
+        margin-left: -12.7%;
+        width: 40%;
+    }
+
+    #homeFlame {
+        position: absolute;
+        width: 34.4%;
+        margin-left: 31.7rem;
+        z-index: 1;
+        margin-top: 17rem;
+    }
+
+    .homeFirstPara{
+        margin-bottom: 2rem;
+    width: 70%; 
+    }
+
+    #mobileImgHome{
+        display: none;
+    }
+
+    .wp-image-1069 {
+        width: 60%;
+        margin-left: 17%;
+        margin-top: -44%;
+    }
+
+
+
+
+
+    /*------------------------------------------------MISSION AND VISSION ---------------------------------------------------------*/
+    /* Desktop Flame*/
+    .wp-image-501 {
+        display: inline;
+        margin: -26.5% 0% 0% 81%;
+        position: relative;
+        z-index: 1;
+    }
+
+    #visionFlameMob,
+    #missionFlameMob {
+        display: none;
+    }
+
+    #desktopVisionImg,
+    #desktopMissionImg {
+        display: inline;
+    }
+
+    #desktopMissionImg {
+        margin: -12.3rem 9rem 0rem -2rem;
+        position: absolute;
+    }
+
+    #post-20 .wp-block-image {
+        margin-bottom: 0px;
+    }
+
+    #missionHead {
+        margin-top: -10rem;
+    }
+
+    #missionMobileImg,
+    #mobileMissionImgTwo {
+        display: none;
+    }
+
+    #mission-and-vission #colophon {
+        margin-top: 2rem;
+    }
+
+    /* Targetting text */
+
+    #visionText {
+        margin-top: -2rem;
+    }
+
+    .visionCol {
+        padding-left: 2.3rem;
+    }
+
+    #reachOut,
+    #reachOut2 {
+        margin-top: -1rem;
+    }
+
+    #missionBottomText {
+        margin-bottom: 8rem;
+    }
+
+    .missionText,
+    .missionCol {
+        padding-right: 1.5rem;
+        padding-left: 2rem;
+    }
+
+    #bottomCss{
+        margin-bottom: 9rem;
+    }
+
+
+
+    /*------------------------------------------------PATHWAY OF SUCCESS ---------------------------------------------------------*/
+
+    .wp-block-image.size-large.tablet_pathway_image {
+        display: none;
+    }
+
+    .wp-image-495 {
+        display: none;
+    }
+
+    /* Flame*/
+    .wp-image-991 {
+        width: auto;
+        position: absolute;
+        margin-left: 35rem;
+        margin-top: 17.8rem;
+    }
+
+    .wp-block-image.size-large.pathway_ala_flame {
+        margin-left: -55%;
+        margin-top: 3%;
+        transform: rotate(0deg);
+        width: 100%;
+        position: relative;
+    }
+
+    .wp-block-column.pathway_to_success {
+        margin-top: 0%;
+    }
+
+    #pathwaySuccessCol {
+        padding-left: 5rem;
+    }
+
+
+    .revival_text.has-sky-blue-color.has-text-color {
+        line-height: 1.3rem;
+    }
+
+    .mobileImgPathway{
+        display: none;
+    }
+
+    .desktopImgPathway{
+        display: inline;
+    }
+
+
+    .wp-block-column.is-vertically-aligned-top.revival_left_col {
+        margin-top: 35px;
+    }
+
+    .wp-block-column.is-vertically-aligned-top.revival_right_col {
+        margin-top: 4rem;
+    }
+
+    /* NEW STYLES FOR LATEST PDF PATHWAY PAGE */
+
+    p.pathway_text.has-seaweed-green-color.has-text-color {
+        justify-content: left;
+    }
+
+    /* Canadian Revival Retreats */
+
+    .wp-block-columns.logos_0_desktop {
+        margin-top: 10%;
+    }
+
+    .wp-block-columns.top_logos {
+        border-bottom: 1px solid #2889A8;
+        margin-bottom: 70px;
+        /*margin-top: -32px;*/
+        padding-bottom: 37px;
+    }
+
+    .wp-block-columns.logos_0_mobile {
+        display: none;
+    }
+
+    .wp-block-columns.logos_0_desktop {
+        display: inline;
+    }
+
+    .wp-block-column.canadian_revival_logos {
+        margin-top: 0%;
+    }
+
+
+    /*--------------------------------------------------FAMILY REVIVAL   ---------------------------------------------------------*/
+
+    .FRI {
+        text-align: center;
+        width: 70%;
+        margin-top: 200px;
+        margin-left: 2rem;
+    }
+
+    .FRT {
+        text-align: center;
+        margin-bottom: 50px;
+        line-height: 25px;
+    }
+
+    .NAh {
+        font-size: 30px;
+    }
+
+    .FRSH {
+        font-weight: 500;
+    }
+
+    /* .family_head{
+            padding-top: 200px;
+        } */
+    .PIA_blocks {
+        margin: 30px;
+    }
+
+    .PE_Block {
+        padding-left: 10%;
+    }
+
+    .NR_subhead {
+        font-size: 30px;
+    }
+
+    .PIA_list {
+        text-align: center;
+        list-style: none;
+        font-size: 20px;
+    }
+
+    .PIA_sep {
+        border-bottom: 2px solid #2E89AA;
+        max-width: 100%;
+    }
+
+    .entry-meta,
+    .entry-footer {
+        display: none;
+    }
+
+    #FRR-img-contain {
+        position: relative;
+        min-height: 100vh;
+        
+    }
+
+    #FRR-right-col {
+        padding-left: 2%;
+    }
+
+    #under-img {
+        position: absolute;
+        width: 100%;
+        margin-top: 10%;
+    }
+
+#FRR-nav {
+
+    margin-top: -10rem;
+
+}
+
+    #float-flame {
+        position: absolute;
+        right: -15%;
+        bottom: 7%;
+        width: 30%;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+
+    /*---------------------------------------------------OUR FAMILY  ---------------------------------------------------------*/
+
+    .entry-title {
+        visibility: hidden;
+    }
+
+    /*.has-mustard-color {
+            color: #dfa13a;
+            margin-left: 30px;
+        }*/
+    .fam {
+        margin-left: -10px;
+    }
+
+    .wp-block-embed__wrapper {
+        position: relative;
+        margin-left: 33px;
+        width: 600px;
+    }
+
+
+
+
+    .fl {
+        margin-left: 14px !important;
+        z-index: 1000;
+        position: absolute;
+
+    }
+
+    /* .q1 {
+        font-size: 19px;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 300px;
+    } */
+
+    .q2 {
+        font-size: 19px;
+        margin-top: 20px;
+        margin-left: -250px;
+        width: 300px;
+    }
+
+    .q3 {
+        font-size: 19px;
+        margin-top: -110px;
+        margin-left: 40rem;
+        width: 300px;
+    }
+
+    .q4 {
+        font-size: 19px;
+        margin-top: -110px;
+        margin-left: 20rem;
+        width: 350px;
+    }
+
+
+    .ourfam {
+        margin-top: 30px;
+    }
+
+
+
+    /*--------------------------------------------------- CONTACT   ---------------------------------------------------------*/
+
+    label {
+        color: #E0A13B;
+    }
+
+    div.wpforms-container-full .wpforms-form input[type=text],
+    div.wpforms-container-full .wpforms-form input[type=email],
+    div.wpforms-container-full .wpforms-form textarea {
+        border: 1px solid #2989AA;
+    }
+
+    div.wpforms-container-full .wpforms-form button[type=submit] {
+        background-color: #2989AA;
+        border: 1px solid #2989AA;
+        color: white;
+    }
+
+    #CU-contain {
+        position: relative;
+        min-height: 80vh;
+    }
+
+    #CU-img {
+        position: relative;
+        width: 100%;
+    }
+
+    #CU-flame {
+        position: absolute;
+right: -12.3%;
+bottom: 8%;
+width: 25%;
+    }
+
+    /*--------------------------------------------------- DONATION ---------------------------------------------------------*/
+
+
+    .MyDonateButtons {
+        margin: 0 auto;
+        padding: 25px;
+        width: 300px;
+        text-align: center;
+        border: 3px solid #dfa13a;
+    }
+
+    .donationImg1 {
+        z-index: 1;
+        position: relative;
+    }
+
+    .donationImg2 > img {
+        z-index: 200;
+        position: relative;
+        left: 32%;
+        margin-top: -23.5rem;
+        margin-left: 8.5rem;
+        width: 30%;
+    }
+
+    .Presenting_Problems {
+        margin-left: 347px;
+    }
+
+    .myTable {
+        margin: 0 auto;
+        width: 70% !important;
+        height: auto;
+        overflow-x: auto;
+    }
+
+    .myTable th {
+        background-color: #E0A13B;
+        color: #396134;
+    }
+
+    .myTable tr {
+        background-color: white;
+        color: #396134;
+    }
+
+    .wpedon_paypalbuttonimage{ border: none;
+        height: 43px;
+        text-align: center;
+        position: relative;
+        left: 33%;}
+
+    .wp-image-797 {
+        display: none;
+    }
+
+    .DonationButtons {
+        color: #dfa13a;
+        border: #dfa13a solid 2px;
+        background-color: #F3F3F3 !important;
+
+    }
+
+    .DonationButtons>.has-text-color {
+        color: #dfa13a
+
+    }
+}
