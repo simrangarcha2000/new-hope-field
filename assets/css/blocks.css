@@ -35,19 +35,25 @@
     color: #dfa13a;
 }
 
-h1{
-
-}
-
-h2{
-
-}
 
 p{
-    font-size: 24px;
+    font-size: 22px;
 }
 
+
+
+
 @media (max-width: 599px){
+
+
+    h1{
+        
+
+    }
+    
+    h2{
+        font-size: 1.5rem;
+    }
 
 
     p{
